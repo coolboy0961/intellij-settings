@@ -1,0 +1,14 @@
+<application>
+  <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="CommitDialog">
+        <PlaceSettings>
+          <option name="READ_ONLY_LOCK" value="false" />
+        </PlaceSettings>
+      </entry>
+      <entry key="VcsLogView">
+        <PlaceSettings />
+      </entry>
+    </option>
+  </component>
+</application>

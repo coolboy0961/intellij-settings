@@ -1,0 +1,30 @@
+<toolSet name="External Tools">
+  <tool name="docker-compose up" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker-compose" />
+      <option name="PARAMETERS" value="up -d" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management/ymols-tools" />
+    </exec>
+  </tool>
+  <tool name="docker-compose down" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker-compose" />
+      <option name="PARAMETERS" value="down" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management/ymols-tools" />
+    </exec>
+  </tool>
+  <tool name="e2e test" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="./scripts/run-e2e-tests.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="ship-it-current-branch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="./scripts/ship-it-current-branch.sh" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+</toolSet>
