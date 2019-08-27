@@ -34,4 +34,53 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
     </exec>
   </tool>
+  <tool name="backend servic functionaltest:all" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="./gradlew" />
+      <option name="PARAMETERS" value="ymols-backend-service:clean ymols-backend-service:functionaltest" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="backend service open functionaltest report" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="open" />
+      <option name="PARAMETERS" value="ymols-backend-service/build/reports/tests/functionaltest/index.html" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="backend service junit test:all" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="./gradlew" />
+      <option name="PARAMETERS" value="ymols-backend-service:clean ymols-backend-service:test" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="backend service open junit report" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="open" />
+      <option name="PARAMETERS" value="ymols-backend-service/build/reports/tests/test/index.html" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="open e2e test report" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="open" />
+      <option name="PARAMETERS" value="ymols-e2e-test/build/reports/tests/test/index.html" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="external junit test:all" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="./gradlew" />
+      <option name="PARAMETERS" value="ymols-external:clean ymols-external:test" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
+  <tool name="external open junit report" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="open" />
+      <option name="PARAMETERS" value="ymols-external/build/reports/tests/test/index.html" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
+    </exec>
+  </tool>
 </toolSet>
