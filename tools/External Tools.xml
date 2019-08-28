@@ -22,7 +22,7 @@
   </tool>
   <tool name="ship-it-current-branch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="./scripts/ship-it-current-branch.sh" />
+      <option name="COMMAND" value="./scripts/current-branch-ship-it.sh" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/ymols-order-management" />
     </exec>
