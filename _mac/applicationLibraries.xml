@@ -1,6 +1,6 @@
 <application>
   <component name="libraryTable">
-    <library name="Pipenv (ymols-batch) (2) interpreter library">
+    <library name="Pipenv (ymols-batch) interpreter library">
       <CLASSES>
         <root url="file://$USER_HOME$/git/ymols-order-management/ymols-batch/.venv/lib/python3.7" />
         <root url="file://$USER_HOME$/git/ymols-order-management/ymols-batch/.venv/lib/python3.7/lib-dynload" />
