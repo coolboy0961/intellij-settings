@@ -4,6 +4,7 @@
       <set>
         <option value="python:S125" />
         <option value="squid:S1155" />
+        <option value="squid:S1220" />
         <option value="squid:S1854" />
         <option value="squid:S5361" />
       </set>
